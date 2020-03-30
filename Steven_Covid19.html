@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e98c9c68300421c82ef9f63e1ddf6bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8e98c9c68300421c82ef9f63e1ddf6bf" ></div>
+        
+</body>
+<script>    
+    
+            var map_8e98c9c68300421c82ef9f63e1ddf6bf = L.map(
+                "map_8e98c9c68300421c82ef9f63e1ddf6bf",
+                {
+                    center: [-2.2756707, 116.4386513],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c4596296ca34eb99bb2f5978d41c527 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var marker_0dc5b7372bb045d4ada456b7b7df8b4f = L.marker(
+                [4.695135, 96.7493993],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_455553cd87934dc9ad2d3c281c1ceb3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0dc5b7372bb045d4ada456b7b7df8b4f.setIcon(icon_455553cd87934dc9ad2d3c281c1ceb3a);
+        
+    
+        var popup_d9ca6e1264284351b8f0549f70a72d69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f3ae204b2d1422683d3543985c3333e = $(`<div id="html_0f3ae204b2d1422683d3543985c3333e" style="width: 100.0%; height: 100.0%;"><b><h3> Aceh </h3> </b> <br> Confirmed : 5 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 5</div>`)[0];
+            popup_d9ca6e1264284351b8f0549f70a72d69.setContent(html_0f3ae204b2d1422683d3543985c3333e);
+        
+
+        marker_0dc5b7372bb045d4ada456b7b7df8b4f.bindPopup(popup_d9ca6e1264284351b8f0549f70a72d69)
+        ;
+
+        
+    
+    
+            marker_0dc5b7372bb045d4ada456b7b7df8b4f.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c50582b78044f02875d6662f66a91b0 = L.marker(
+                [-8.4095178, 115.188916],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_9480c46eb55745078f8c2fde2a1aaa74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c50582b78044f02875d6662f66a91b0.setIcon(icon_9480c46eb55745078f8c2fde2a1aaa74);
+        
+    
+        var popup_bef42215d62d4c9281592623ae4c6990 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25ac5312787e47d49dccd18912ecc96f = $(`<div id="html_25ac5312787e47d49dccd18912ecc96f" style="width: 100.0%; height: 100.0%;"><b><h3> Bali </h3> </b> <br> Confirmed : 10 <br> Recovered : 0  <br>  Death : 2  <br>  Active: 8</div>`)[0];
+            popup_bef42215d62d4c9281592623ae4c6990.setContent(html_25ac5312787e47d49dccd18912ecc96f);
+        
+
+        marker_5c50582b78044f02875d6662f66a91b0.bindPopup(popup_bef42215d62d4c9281592623ae4c6990)
+        ;
+
+        
+    
+    
+            marker_5c50582b78044f02875d6662f66a91b0.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_147bd4b4641d4e0a9dc39fecbc2b92a3 = L.marker(
+                [-2.7410513, 106.4405872],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_57d4fac800c841dbab775b9782920f0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_147bd4b4641d4e0a9dc39fecbc2b92a3.setIcon(icon_57d4fac800c841dbab775b9782920f0e);
+        
+    
+        var popup_ecfae0a4b9464bec8dad9b284f757ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9068b20d78e48bfa69cb18335049b81 = $(`<div id="html_f9068b20d78e48bfa69cb18335049b81" style="width: 100.0%; height: 100.0%;"><b><h3> Bangka Belitung </h3> </b> <br> Confirmed : 0 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 0</div>`)[0];
+            popup_ecfae0a4b9464bec8dad9b284f757ce7.setContent(html_f9068b20d78e48bfa69cb18335049b81);
+        
+
+        marker_147bd4b4641d4e0a9dc39fecbc2b92a3.bindPopup(popup_ecfae0a4b9464bec8dad9b284f757ce7)
+        ;
+
+        
+    
+    
+            marker_147bd4b4641d4e0a9dc39fecbc2b92a3.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d325a6f238604f789a3fdb80f7bc51b3 = L.marker(
+                [-6.4058172, 106.0640179],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_51aec1af3b9d409dbadebba12f5f8241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d325a6f238604f789a3fdb80f7bc51b3.setIcon(icon_51aec1af3b9d409dbadebba12f5f8241);
+        
+    
+        var popup_9d833613f2e346d1b67b63319c2999a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0eee20762364e87a129e3def313dd4c = $(`<div id="html_a0eee20762364e87a129e3def313dd4c" style="width: 100.0%; height: 100.0%;"><b><h3> Banten </h3> </b> <br> Confirmed : 106 <br> Recovered : 1  <br>  Death : 4  <br>  Active: 101</div>`)[0];
+            popup_9d833613f2e346d1b67b63319c2999a0.setContent(html_a0eee20762364e87a129e3def313dd4c);
+        
+
+        marker_d325a6f238604f789a3fdb80f7bc51b3.bindPopup(popup_9d833613f2e346d1b67b63319c2999a0)
+        ;
+
+        
+    
+    
+            marker_d325a6f238604f789a3fdb80f7bc51b3.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_579d20357ff244078f7ad236f1675ce0 = L.marker(
+                [-3.5778471, 102.3463875],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_6256436cfaad46a1a75156681a9a2be5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_579d20357ff244078f7ad236f1675ce0.setIcon(icon_6256436cfaad46a1a75156681a9a2be5);
+        
+    
+        var popup_fce397558c1a4d2d891e05a23379daf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28bc5b52f109422f8d895b0e5842272a = $(`<div id="html_28bc5b52f109422f8d895b0e5842272a" style="width: 100.0%; height: 100.0%;"><b><h3> Bengkulu </h3> </b> <br> Confirmed : 0 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 0</div>`)[0];
+            popup_fce397558c1a4d2d891e05a23379daf2.setContent(html_28bc5b52f109422f8d895b0e5842272a);
+        
+
+        marker_579d20357ff244078f7ad236f1675ce0.bindPopup(popup_fce397558c1a4d2d891e05a23379daf2)
+        ;
+
+        
+    
+    
+            marker_579d20357ff244078f7ad236f1675ce0.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bda39632f954c5f9413190bb1b7a6e9 = L.marker(
+                [-7.150975, 110.1402594],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_938a2888f01c47198f8465cea7b534ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bda39632f954c5f9413190bb1b7a6e9.setIcon(icon_938a2888f01c47198f8465cea7b534ca);
+        
+    
+        var popup_5d43ebc2c0dc4ae6807971b60dbeda3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47aa8f5caf7048469f6a5544af3b88d2 = $(`<div id="html_47aa8f5caf7048469f6a5544af3b88d2" style="width: 100.0%; height: 100.0%;"><b><h3> Central Java </h3> </b> <br> Confirmed : 63 <br> Recovered : 0  <br>  Death : 7  <br>  Active: 56</div>`)[0];
+            popup_5d43ebc2c0dc4ae6807971b60dbeda3e.setContent(html_47aa8f5caf7048469f6a5544af3b88d2);
+        
+
+        marker_3bda39632f954c5f9413190bb1b7a6e9.bindPopup(popup_5d43ebc2c0dc4ae6807971b60dbeda3e)
+        ;
+
+        
+    
+    
+            marker_3bda39632f954c5f9413190bb1b7a6e9.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d99a7166e2934b4d80797b4222a825be = L.marker(
+                [-1.6814878, 113.3823545],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_23422565e8a8454984d6159a624af0d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d99a7166e2934b4d80797b4222a825be.setIcon(icon_23422565e8a8454984d6159a624af0d9);
+        
+    
+        var popup_751685a39337498f863f045de9595b94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c57dbb4011f4c69b877b4653ea3147d = $(`<div id="html_8c57dbb4011f4c69b877b4653ea3147d" style="width: 100.0%; height: 100.0%;"><b><h3> Central Kalimantan </h3> </b> <br> Confirmed : 7 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 7</div>`)[0];
+            popup_751685a39337498f863f045de9595b94.setContent(html_8c57dbb4011f4c69b877b4653ea3147d);
+        
+
+        marker_d99a7166e2934b4d80797b4222a825be.bindPopup(popup_751685a39337498f863f045de9595b94)
+        ;
+
+        
+    
+    
+            marker_d99a7166e2934b4d80797b4222a825be.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6ba19ccb8b24cd880bc85677b31c80d = L.marker(
+                [-1.4300254, 121.4456179],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_8adacd802d974585a3d002d3cb076a16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6ba19ccb8b24cd880bc85677b31c80d.setIcon(icon_8adacd802d974585a3d002d3cb076a16);
+        
+    
+        var popup_1e59d04a79c046f095abfbcbcadd7ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49fe1ea2676f4d39be8d4ddaa0afb4a9 = $(`<div id="html_49fe1ea2676f4d39be8d4ddaa0afb4a9" style="width: 100.0%; height: 100.0%;"><b><h3> Central Sulawesi </h3> </b> <br> Confirmed : 2 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 2</div>`)[0];
+            popup_1e59d04a79c046f095abfbcbcadd7ac2.setContent(html_49fe1ea2676f4d39be8d4ddaa0afb4a9);
+        
+
+        marker_a6ba19ccb8b24cd880bc85677b31c80d.bindPopup(popup_1e59d04a79c046f095abfbcbcadd7ac2)
+        ;
+
+        
+    
+    
+            marker_a6ba19ccb8b24cd880bc85677b31c80d.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb7c79852c074674943992b738ac2745 = L.marker(
+                [-7.5360639, 112.2384017],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_cf14be88af2442a08bb1ce67b3c04cc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb7c79852c074674943992b738ac2745.setIcon(icon_cf14be88af2442a08bb1ce67b3c04cc5);
+        
+    
+        var popup_220849ae4111467c868222bf47d1a6dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92e0bbf078464891a1d861420ab65c46 = $(`<div id="html_92e0bbf078464891a1d861420ab65c46" style="width: 100.0%; height: 100.0%;"><b><h3> East Java </h3> </b> <br> Confirmed : 90 <br> Recovered : 11  <br>  Death : 7  <br>  Active: 72</div>`)[0];
+            popup_220849ae4111467c868222bf47d1a6dc.setContent(html_92e0bbf078464891a1d861420ab65c46);
+        
+
+        marker_cb7c79852c074674943992b738ac2745.bindPopup(popup_220849ae4111467c868222bf47d1a6dc)
+        ;
+
+        
+    
+    
+            marker_cb7c79852c074674943992b738ac2745.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd6ac447ebdb476699f0afc8569fe9be = L.marker(
+                [1.6406296, 116.419389],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_48c4738118cf4aa19590b71fdf219bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd6ac447ebdb476699f0afc8569fe9be.setIcon(icon_48c4738118cf4aa19590b71fdf219bf3);
+        
+    
+        var popup_d3603ed2face40ae8230154016ddb12c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bb0c9ff0c384dd0a3464c833b6cf191 = $(`<div id="html_2bb0c9ff0c384dd0a3464c833b6cf191" style="width: 100.0%; height: 100.0%;"><b><h3> East Kalimantan </h3> </b> <br> Confirmed : 17 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 17</div>`)[0];
+            popup_d3603ed2face40ae8230154016ddb12c.setContent(html_2bb0c9ff0c384dd0a3464c833b6cf191);
+        
+
+        marker_dd6ac447ebdb476699f0afc8569fe9be.bindPopup(popup_d3603ed2face40ae8230154016ddb12c)
+        ;
+
+        
+    
+    
+            marker_dd6ac447ebdb476699f0afc8569fe9be.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06354413e8544635a3fbf76b25f3e554 = L.marker(
+                [-8.6573819, 121.0793705],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_12c591ae5b0d484e83941f999c0868ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06354413e8544635a3fbf76b25f3e554.setIcon(icon_12c591ae5b0d484e83941f999c0868ef);
+        
+    
+        var popup_72685ad2d3d5487b9755e6db1ee908c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_033e8de7f1bb4f49b2d434fc8a86c71e = $(`<div id="html_033e8de7f1bb4f49b2d434fc8a86c71e" style="width: 100.0%; height: 100.0%;"><b><h3> East Nusa Tenggara </h3> </b> <br> Confirmed : 0 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 0</div>`)[0];
+            popup_72685ad2d3d5487b9755e6db1ee908c8.setContent(html_033e8de7f1bb4f49b2d434fc8a86c71e);
+        
+
+        marker_06354413e8544635a3fbf76b25f3e554.bindPopup(popup_72685ad2d3d5487b9755e6db1ee908c8)
+        ;
+
+        
+    
+    
+            marker_06354413e8544635a3fbf76b25f3e554.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce209a7e5d894d71966d007050be7b31 = L.marker(
+                [0.6999372, 122.4467238],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_6533cf4ac96a4813983dd41139b9cec2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce209a7e5d894d71966d007050be7b31.setIcon(icon_6533cf4ac96a4813983dd41139b9cec2);
+        
+    
+        var popup_7dc52e036d4e4d848f6ce0b951eaf342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f58032c8e8c048c98ca987ad6f4f4810 = $(`<div id="html_f58032c8e8c048c98ca987ad6f4f4810" style="width: 100.0%; height: 100.0%;"><b><h3> Gorontalo </h3> </b> <br> Confirmed : 0 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 0</div>`)[0];
+            popup_7dc52e036d4e4d848f6ce0b951eaf342.setContent(html_f58032c8e8c048c98ca987ad6f4f4810);
+        
+
+        marker_ce209a7e5d894d71966d007050be7b31.bindPopup(popup_7dc52e036d4e4d848f6ce0b951eaf342)
+        ;
+
+        
+    
+    
+            marker_ce209a7e5d894d71966d007050be7b31.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc38018b61d14d80a031e1231133590f = L.marker(
+                [-6.211544, 106.845172],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_fb0b1f9876394ef2844bbdd8d8b8e012 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc38018b61d14d80a031e1231133590f.setIcon(icon_fb0b1f9876394ef2844bbdd8d8b8e012);
+        
+    
+        var popup_f9534c60f90f4e17b9f05fe506735e53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef138313fd0e4781aae405de80511147 = $(`<div id="html_ef138313fd0e4781aae405de80511147" style="width: 100.0%; height: 100.0%;"><b><h3> Jakarta </h3> </b> <br> Confirmed : 720 <br> Recovered : 45  <br>  Death : 68  <br>  Active: 607</div>`)[0];
+            popup_f9534c60f90f4e17b9f05fe506735e53.setContent(html_ef138313fd0e4781aae405de80511147);
+        
+
+        marker_fc38018b61d14d80a031e1231133590f.bindPopup(popup_f9534c60f90f4e17b9f05fe506735e53)
+        ;
+
+        
+    
+    
+            marker_fc38018b61d14d80a031e1231133590f.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d939ac104dc4c3abec23ee2d3ae518c = L.marker(
+                [-1.4851831, 102.4380581],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_7a1d679d21de40e3b6adb0ac7fe77f15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d939ac104dc4c3abec23ee2d3ae518c.setIcon(icon_7a1d679d21de40e3b6adb0ac7fe77f15);
+        
+    
+        var popup_606e4a3729354d3293f9756bec9db1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_127ea3a2f86b468e84453ef5832148e1 = $(`<div id="html_127ea3a2f86b468e84453ef5832148e1" style="width: 100.0%; height: 100.0%;"><b><h3> Jambi </h3> </b> <br> Confirmed : 1 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 1</div>`)[0];
+            popup_606e4a3729354d3293f9756bec9db1b4.setContent(html_127ea3a2f86b468e84453ef5832148e1);
+        
+
+        marker_0d939ac104dc4c3abec23ee2d3ae518c.bindPopup(popup_606e4a3729354d3293f9756bec9db1b4)
+        ;
+
+        
+    
+    
+            marker_0d939ac104dc4c3abec23ee2d3ae518c.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10c17d5ff8144ce9b02ea8b876670279 = L.marker(
+                [-4.5585849, 105.4068079],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_3e4c3b55604b40878b01ae699bf5e0d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10c17d5ff8144ce9b02ea8b876670279.setIcon(icon_3e4c3b55604b40878b01ae699bf5e0d8);
+        
+    
+        var popup_e4b2e29aa8e64228904a06744a99f3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de985f80d2994363bc97b68de6e0045e = $(`<div id="html_de985f80d2994363bc97b68de6e0045e" style="width: 100.0%; height: 100.0%;"><b><h3> Lampung </h3> </b> <br> Confirmed : 4 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 4</div>`)[0];
+            popup_e4b2e29aa8e64228904a06744a99f3a4.setContent(html_de985f80d2994363bc97b68de6e0045e);
+        
+
+        marker_10c17d5ff8144ce9b02ea8b876670279.bindPopup(popup_e4b2e29aa8e64228904a06744a99f3a4)
+        ;
+
+        
+    
+    
+            marker_10c17d5ff8144ce9b02ea8b876670279.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca1bf96522124c4fb190708cda54801a = L.marker(
+                [-3.2384616, 130.1452734],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_1d433d04245c4d728df37d4db53a1106 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca1bf96522124c4fb190708cda54801a.setIcon(icon_1d433d04245c4d728df37d4db53a1106);
+        
+    
+        var popup_ed271ffa5a1247cd878408f3240cce1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_096255cd9c5a4f31a9459952bedc3458 = $(`<div id="html_096255cd9c5a4f31a9459952bedc3458" style="width: 100.0%; height: 100.0%;"><b><h3> Maluku </h3> </b> <br> Confirmed : 1 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 1</div>`)[0];
+            popup_ed271ffa5a1247cd878408f3240cce1a.setContent(html_096255cd9c5a4f31a9459952bedc3458);
+        
+
+        marker_ca1bf96522124c4fb190708cda54801a.bindPopup(popup_ed271ffa5a1247cd878408f3240cce1a)
+        ;
+
+        
+    
+    
+            marker_ca1bf96522124c4fb190708cda54801a.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66de76a0403a48bda50c37b00190c58c = L.marker(
+                [1.5709993, 127.8087693],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_b3b6bda53f9c4a008bc5be7c4a6db72f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66de76a0403a48bda50c37b00190c58c.setIcon(icon_b3b6bda53f9c4a008bc5be7c4a6db72f);
+        
+    
+        var popup_6ba528d38e9b4287ae530700706279ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fb649e1e9fc43479534d651f8970f9b = $(`<div id="html_1fb649e1e9fc43479534d651f8970f9b" style="width: 100.0%; height: 100.0%;"><b><h3> North Maluku </h3> </b> <br> Confirmed : 1 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 1</div>`)[0];
+            popup_6ba528d38e9b4287ae530700706279ea.setContent(html_1fb649e1e9fc43479534d651f8970f9b);
+        
+
+        marker_66de76a0403a48bda50c37b00190c58c.bindPopup(popup_6ba528d38e9b4287ae530700706279ea)
+        ;
+
+        
+    
+    
+            marker_66de76a0403a48bda50c37b00190c58c.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65c4e3873d6d4d01a77dafa5906b991c = L.marker(
+                [1.5802128, 114.0308546],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_38de2e3a7b4d4fda8b4f44983f363a8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65c4e3873d6d4d01a77dafa5906b991c.setIcon(icon_38de2e3a7b4d4fda8b4f44983f363a8e);
+        
+    
+        var popup_306d548c06d343f88461b66a1a666093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ab80587410943a893042b19ff8e0611 = $(`<div id="html_3ab80587410943a893042b19ff8e0611" style="width: 100.0%; height: 100.0%;"><b><h3> North Kalimantan </h3> </b> <br> Confirmed : 2 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 2</div>`)[0];
+            popup_306d548c06d343f88461b66a1a666093.setContent(html_3ab80587410943a893042b19ff8e0611);
+        
+
+        marker_65c4e3873d6d4d01a77dafa5906b991c.bindPopup(popup_306d548c06d343f88461b66a1a666093)
+        ;
+
+        
+    
+    
+            marker_65c4e3873d6d4d01a77dafa5906b991c.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_777abda0437d4e798c54822662771a4b = L.marker(
+                [0.6246932, 123.9750018],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_fe778bdfff934bc68ec206d8ea39d3a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_777abda0437d4e798c54822662771a4b.setIcon(icon_fe778bdfff934bc68ec206d8ea39d3a4);
+        
+    
+        var popup_28fd634b66f243e287c24bd1447669be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a012874a98e244939dcfcf85db3962b6 = $(`<div id="html_a012874a98e244939dcfcf85db3962b6" style="width: 100.0%; height: 100.0%;"><b><h3> North Sulawesi </h3> </b> <br> Confirmed : 2 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 2</div>`)[0];
+            popup_28fd634b66f243e287c24bd1447669be.setContent(html_a012874a98e244939dcfcf85db3962b6);
+        
+
+        marker_777abda0437d4e798c54822662771a4b.bindPopup(popup_28fd634b66f243e287c24bd1447669be)
+        ;
+
+        
+    
+    
+            marker_777abda0437d4e798c54822662771a4b.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83f5110523094965a22d236835a55f3c = L.marker(
+                [2.1153547, 99.5450974],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_ae7db51fc013407f8834577ff0d42103 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83f5110523094965a22d236835a55f3c.setIcon(icon_ae7db51fc013407f8834577ff0d42103);
+        
+    
+        var popup_91db06c145bf483fab49a50cf14d45b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5fe490a74c47eb874bab5521844b13 = $(`<div id="html_7c5fe490a74c47eb874bab5521844b13" style="width: 100.0%; height: 100.0%;"><b><h3> North Sumatera </h3> </b> <br> Confirmed : 8 <br> Recovered : 0  <br>  Death : 1  <br>  Active: 7</div>`)[0];
+            popup_91db06c145bf483fab49a50cf14d45b4.setContent(html_7c5fe490a74c47eb874bab5521844b13);
+        
+
+        marker_83f5110523094965a22d236835a55f3c.bindPopup(popup_91db06c145bf483fab49a50cf14d45b4)
+        ;
+
+        
+    
+    
+            marker_83f5110523094965a22d236835a55f3c.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7e9099010e14511b083d8f241c50a21 = L.marker(
+                [-4.269928, 138.0803529],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_c395be4507954583af26dcb754adee04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7e9099010e14511b083d8f241c50a21.setIcon(icon_c395be4507954583af26dcb754adee04);
+        
+    
+        var popup_f0fb47be307a43ac92b98c313fdc33eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_391aacdb023a4d4581a136df5b96b6ab = $(`<div id="html_391aacdb023a4d4581a136df5b96b6ab" style="width: 100.0%; height: 100.0%;"><b><h3> Papua </h3> </b> <br> Confirmed : 9 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 9</div>`)[0];
+            popup_f0fb47be307a43ac92b98c313fdc33eb.setContent(html_391aacdb023a4d4581a136df5b96b6ab);
+        
+
+        marker_d7e9099010e14511b083d8f241c50a21.bindPopup(popup_f0fb47be307a43ac92b98c313fdc33eb)
+        ;
+
+        
+    
+    
+            marker_d7e9099010e14511b083d8f241c50a21.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35504b464d0b48a2b0a7e5417210d23e = L.marker(
+                [0.2933469, 101.7068294],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_b641845963764f05b19f145ff7faa88f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35504b464d0b48a2b0a7e5417210d23e.setIcon(icon_b641845963764f05b19f145ff7faa88f);
+        
+    
+        var popup_52a85456c0924a6aace56f84d9021064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64bd4e693eb342c2a2356604d77d0fdc = $(`<div id="html_64bd4e693eb342c2a2356604d77d0fdc" style="width: 100.0%; height: 100.0%;"><b><h3> Riau </h3> </b> <br> Confirmed : 2 <br> Recovered : 1  <br>  Death : 0  <br>  Active: 1</div>`)[0];
+            popup_52a85456c0924a6aace56f84d9021064.setContent(html_64bd4e693eb342c2a2356604d77d0fdc);
+        
+
+        marker_35504b464d0b48a2b0a7e5417210d23e.bindPopup(popup_52a85456c0924a6aace56f84d9021064)
+        ;
+
+        
+    
+    
+            marker_35504b464d0b48a2b0a7e5417210d23e.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82f0774b6a4046468059df8e8e8d863f = L.marker(
+                [3.9456514, 108.1428669],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_033cac427b9044d59baf78450a2d400f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82f0774b6a4046468059df8e8e8d863f.setIcon(icon_033cac427b9044d59baf78450a2d400f);
+        
+    
+        var popup_46b474b1e68245d59be43e276a552380 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f03bd56aad974ee9b80de050a4e159aa = $(`<div id="html_f03bd56aad974ee9b80de050a4e159aa" style="width: 100.0%; height: 100.0%;"><b><h3> Riau Islands </h3> </b> <br> Confirmed : 5 <br> Recovered : 0  <br>  Death : 1  <br>  Active: 4</div>`)[0];
+            popup_46b474b1e68245d59be43e276a552380.setContent(html_f03bd56aad974ee9b80de050a4e159aa);
+        
+
+        marker_82f0774b6a4046468059df8e8e8d863f.bindPopup(popup_46b474b1e68245d59be43e276a552380)
+        ;
+
+        
+    
+    
+            marker_82f0774b6a4046468059df8e8e8d863f.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03aec7d56f2c4e259f74dfa19086ef12 = L.marker(
+                [-3.0926415, 115.2837585],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_259cb5bce8a041408edb14b4e4d9b7eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03aec7d56f2c4e259f74dfa19086ef12.setIcon(icon_259cb5bce8a041408edb14b4e4d9b7eb);
+        
+    
+        var popup_770e28645b87464cb122d357a61e03c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5858191d79784b8a9c0d63c34e1d6068 = $(`<div id="html_5858191d79784b8a9c0d63c34e1d6068" style="width: 100.0%; height: 100.0%;"><b><h3> South Kalimantan </h3> </b> <br> Confirmed : 1 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 1</div>`)[0];
+            popup_770e28645b87464cb122d357a61e03c1.setContent(html_5858191d79784b8a9c0d63c34e1d6068);
+        
+
+        marker_03aec7d56f2c4e259f74dfa19086ef12.bindPopup(popup_770e28645b87464cb122d357a61e03c1)
+        ;
+
+        
+    
+    
+            marker_03aec7d56f2c4e259f74dfa19086ef12.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30174320a824461b82dd1ebc624bab30 = L.marker(
+                [-3.6687994, 119.9740534],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_294af198fbc54a5d911c9755d87c672b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_30174320a824461b82dd1ebc624bab30.setIcon(icon_294af198fbc54a5d911c9755d87c672b);
+        
+    
+        var popup_daa7963de23b4472b9d1a4159e01ac7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a6e657050a2410780f1b231809367c8 = $(`<div id="html_6a6e657050a2410780f1b231809367c8" style="width: 100.0%; height: 100.0%;"><b><h3> South Sulawesi </h3> </b> <br> Confirmed : 47 <br> Recovered : 0  <br>  Death : 1  <br>  Active: 46</div>`)[0];
+            popup_daa7963de23b4472b9d1a4159e01ac7c.setContent(html_6a6e657050a2410780f1b231809367c8);
+        
+
+        marker_30174320a824461b82dd1ebc624bab30.bindPopup(popup_daa7963de23b4472b9d1a4159e01ac7c)
+        ;
+
+        
+    
+    
+            marker_30174320a824461b82dd1ebc624bab30.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3460d64327a4b4584089f2b440fd7d2 = L.marker(
+                [-4.14491, 122.174605],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_3fd62e480c5f49998c161b0cd61c42ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3460d64327a4b4584089f2b440fd7d2.setIcon(icon_3fd62e480c5f49998c161b0cd61c42ff);
+        
+    
+        var popup_d17ce6dcd0314400b59ef33c36db9a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b75fbcd282a4220a7030a59eae9325f = $(`<div id="html_9b75fbcd282a4220a7030a59eae9325f" style="width: 100.0%; height: 100.0%;"><b><h3> Southeast Sulawesi </h3> </b> <br> Confirmed : 3 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 3</div>`)[0];
+            popup_d17ce6dcd0314400b59ef33c36db9a4d.setContent(html_9b75fbcd282a4220a7030a59eae9325f);
+        
+
+        marker_c3460d64327a4b4584089f2b440fd7d2.bindPopup(popup_d17ce6dcd0314400b59ef33c36db9a4d)
+        ;
+
+        
+    
+    
+            marker_c3460d64327a4b4584089f2b440fd7d2.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47e5611fcdb441a78b3df5fa810abbe1 = L.marker(
+                [-3.3194374, 103.914399],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_0f391983ecf04aa7af4adacd6925e690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47e5611fcdb441a78b3df5fa810abbe1.setIcon(icon_0f391983ecf04aa7af4adacd6925e690);
+        
+    
+        var popup_cd76f1fef7734f129070bd970c34fabb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eeccd26f0204e218d82a957f08aa620 = $(`<div id="html_8eeccd26f0204e218d82a957f08aa620" style="width: 100.0%; height: 100.0%;"><b><h3> South Sumatera </h3> </b> <br> Confirmed : 2 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 2</div>`)[0];
+            popup_cd76f1fef7734f129070bd970c34fabb.setContent(html_8eeccd26f0204e218d82a957f08aa620);
+        
+
+        marker_47e5611fcdb441a78b3df5fa810abbe1.bindPopup(popup_cd76f1fef7734f129070bd970c34fabb)
+        ;
+
+        
+    
+    
+            marker_47e5611fcdb441a78b3df5fa810abbe1.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_831c9cc89789411c9c896cb1ea0e4adb = L.marker(
+                [-7.090911, 107.668887],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_e244d9758638499da8bf88e65391175e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_831c9cc89789411c9c896cb1ea0e4adb.setIcon(icon_e244d9758638499da8bf88e65391175e);
+        
+    
+        var popup_b7f6df3bc0fa444c9e008b3d393ae1e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_546d264c0b164ed6825ef62a8ac5ce41 = $(`<div id="html_546d264c0b164ed6825ef62a8ac5ce41" style="width: 100.0%; height: 100.0%;"><b><h3> West Java </h3> </b> <br> Confirmed : 149 <br> Recovered : 6  <br>  Death : 19  <br>  Active: 124</div>`)[0];
+            popup_b7f6df3bc0fa444c9e008b3d393ae1e8.setContent(html_546d264c0b164ed6825ef62a8ac5ce41);
+        
+
+        marker_831c9cc89789411c9c896cb1ea0e4adb.bindPopup(popup_b7f6df3bc0fa444c9e008b3d393ae1e8)
+        ;
+
+        
+    
+    
+            marker_831c9cc89789411c9c896cb1ea0e4adb.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43af2ee028f84a6dbb763898692d332c = L.marker(
+                [-0.2787808, 111.4752851],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_51582afd5ff84862a2335f2c2699cc69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43af2ee028f84a6dbb763898692d332c.setIcon(icon_51582afd5ff84862a2335f2c2699cc69);
+        
+    
+        var popup_8ffe6b99a1364dc5b3ec84ca39a95a49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2b3d61681fd4e8a82066628e92fca97 = $(`<div id="html_d2b3d61681fd4e8a82066628e92fca97" style="width: 100.0%; height: 100.0%;"><b><h3> West Kalimantan </h3> </b> <br> Confirmed : 8 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 8</div>`)[0];
+            popup_8ffe6b99a1364dc5b3ec84ca39a95a49.setContent(html_d2b3d61681fd4e8a82066628e92fca97);
+        
+
+        marker_43af2ee028f84a6dbb763898692d332c.bindPopup(popup_8ffe6b99a1364dc5b3ec84ca39a95a49)
+        ;
+
+        
+    
+    
+            marker_43af2ee028f84a6dbb763898692d332c.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40e95c2cfa9b48088c2e004dbe82cb38 = L.marker(
+                [-8.6529334, 117.3616476],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_2d0f4e5836e544c8992c4ef4c4ac427d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40e95c2cfa9b48088c2e004dbe82cb38.setIcon(icon_2d0f4e5836e544c8992c4ef4c4ac427d);
+        
+    
+        var popup_fbfb224027fa4a9895789c4819910425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18edf316d97947f9b95dfe2e650d91d3 = $(`<div id="html_18edf316d97947f9b95dfe2e650d91d3" style="width: 100.0%; height: 100.0%;"><b><h3> West Nusa Tenggara </h3> </b> <br> Confirmed : 2 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 2</div>`)[0];
+            popup_fbfb224027fa4a9895789c4819910425.setContent(html_18edf316d97947f9b95dfe2e650d91d3);
+        
+
+        marker_40e95c2cfa9b48088c2e004dbe82cb38.bindPopup(popup_fbfb224027fa4a9895789c4819910425)
+        ;
+
+        
+    
+    
+            marker_40e95c2cfa9b48088c2e004dbe82cb38.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_580a0a0622b24e84a5da3d6e2ac68542 = L.marker(
+                [-1.3361154, 133.1747162],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_9e50e46ad0a64019b4c887f526445af4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_580a0a0622b24e84a5da3d6e2ac68542.setIcon(icon_9e50e46ad0a64019b4c887f526445af4);
+        
+    
+        var popup_e585e299623345cc90447cf731a78108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57b574380dcb49cdb00bbd28ec3d759f = $(`<div id="html_57b574380dcb49cdb00bbd28ec3d759f" style="width: 100.0%; height: 100.0%;"><b><h3> West Papua </h3> </b> <br> Confirmed : 2 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 2</div>`)[0];
+            popup_e585e299623345cc90447cf731a78108.setContent(html_57b574380dcb49cdb00bbd28ec3d759f);
+        
+
+        marker_580a0a0622b24e84a5da3d6e2ac68542.bindPopup(popup_e585e299623345cc90447cf731a78108)
+        ;
+
+        
+    
+    
+            marker_580a0a0622b24e84a5da3d6e2ac68542.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_201b61055ac944fea35468048b88baab = L.marker(
+                [-2.8441371, 119.2320784],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_09acda1f14ea41139a7c7058c03d6452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_201b61055ac944fea35468048b88baab.setIcon(icon_09acda1f14ea41139a7c7058c03d6452);
+        
+    
+        var popup_cfc9266ae6864baf85aa6ca12083c58c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_922fb859ecd442fb83161824d48a1fa1 = $(`<div id="html_922fb859ecd442fb83161824d48a1fa1" style="width: 100.0%; height: 100.0%;"><b><h3> West Sulawesi </h3> </b> <br> Confirmed : 1 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 1</div>`)[0];
+            popup_cfc9266ae6864baf85aa6ca12083c58c.setContent(html_922fb859ecd442fb83161824d48a1fa1);
+        
+
+        marker_201b61055ac944fea35468048b88baab.bindPopup(popup_cfc9266ae6864baf85aa6ca12083c58c)
+        ;
+
+        
+    
+    
+            marker_201b61055ac944fea35468048b88baab.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_175d5860d995462ea2351282f47d700f = L.marker(
+                [-0.7399397, 100.8000051],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_56cc3622062a4047bb2359370624644e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_175d5860d995462ea2351282f47d700f.setIcon(icon_56cc3622062a4047bb2359370624644e);
+        
+    
+        var popup_29ffc707a31847f986f3f20ac5fb478a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_372e56611dd9466baee06503c247be8b = $(`<div id="html_372e56611dd9466baee06503c247be8b" style="width: 100.0%; height: 100.0%;"><b><h3> West Sumatra </h3> </b> <br> Confirmed : 5 <br> Recovered : 0  <br>  Death : 0  <br>  Active: 5</div>`)[0];
+            popup_29ffc707a31847f986f3f20ac5fb478a.setContent(html_372e56611dd9466baee06503c247be8b);
+        
+
+        marker_175d5860d995462ea2351282f47d700f.bindPopup(popup_29ffc707a31847f986f3f20ac5fb478a)
+        ;
+
+        
+    
+    
+            marker_175d5860d995462ea2351282f47d700f.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c6368d2a21b4ea2ab8101fbf5fd1d93 = L.marker(
+                [-7.8753849, 110.4262088],
+                {}
+            ).addTo(map_8e98c9c68300421c82ef9f63e1ddf6bf);
+        
+    
+            var icon_4d472db1a0204a2fbd122ccd82603470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c6368d2a21b4ea2ab8101fbf5fd1d93.setIcon(icon_4d472db1a0204a2fbd122ccd82603470);
+        
+    
+        var popup_c7c8e018502b4624a29547a0ceba09e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7502ddf7917249a08849e580e94cad80 = $(`<div id="html_7502ddf7917249a08849e580e94cad80" style="width: 100.0%; height: 100.0%;"><b><h3> Yogyakarta </h3> </b> <br> Confirmed : 22 <br> Recovered : 1  <br>  Death : 2  <br>  Active: 19</div>`)[0];
+            popup_c7c8e018502b4624a29547a0ceba09e6.setContent(html_7502ddf7917249a08849e580e94cad80);
+        
+
+        marker_8c6368d2a21b4ea2ab8101fbf5fd1d93.bindPopup(popup_c7c8e018502b4624a29547a0ceba09e6)
+        ;
+
+        
+    
+    
+            marker_8c6368d2a21b4ea2ab8101fbf5fd1d93.bindTooltip(
+                `<div>
+                     Klik untuk detail kasus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
